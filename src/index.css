@@ -3,10 +3,24 @@
   box-sizing: border-box;
 }
 
-body{
+
+#root{
   background-color: grey;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
+.top{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+.appName{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
 
 .size{
   max-width: 900px;
@@ -22,6 +36,7 @@ body{
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 /* Style the list items */
@@ -80,13 +95,13 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f44336;
+  background-color: none;
   color: white;
 }
 
 /* Style the header */
 .top {
-  background-color: blue;
+  background-color: #636466;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -94,10 +109,6 @@ ul li.checked::before {
 .textinput{
   width: 75%;
   transform: translate(-15%,0%);
-  display: inline-block;
-}
-
-button{
   display: inline-block;
 }
 
@@ -115,18 +126,18 @@ input {
   border: none;
   border-radius: 0;
   width: 50%;
-  padding: 20px;
   float: left;
   font-size: 16px;
 }
 
 /* Style the "Add" button */
 .addBtn {
+  display:inline-block;
   padding: 10px;
   width: 25%;
   background: #d9d9d9;
   color: #555;
-  float: left;
+  float: right;
   text-align: center;
   font-size: 16px;
   cursor: pointer;

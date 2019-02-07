@@ -14,16 +14,12 @@ const App = () => {
     <div className="size">
       
       <div className="top">
-        <h1>Stephen's To do List</h1>
+        <h1 className="appName">Stephen's To do List</h1>
         <h4>Uncompleted Items</h4>
         <div className="textinput">
           <form className="ui form">
-            <div>
-              <input type="text" placeholder="Add a Todo Item"></input>
-            </div>
-            <div>
-              <button className="ui red button">Add Item</button>
-            </div>
+            <input type="text" placeholder="Add a Todo Item"></input>
+            <span className="button ui addBtn">Add Item</span>
           </form>
         </div>
         

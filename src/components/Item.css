@@ -1,3 +1,22 @@
 .ui.items{
   margin: 0;
 }
+
+.extra{
+  font-size: 15px;
+}
+
+.date{
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.close{
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, 100%);
+  font-size: 60px;
+  font-weight: 100;
+}

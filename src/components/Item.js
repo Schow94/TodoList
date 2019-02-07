@@ -10,8 +10,9 @@ const Item = (props) => {
         </div>
         <div className="content">
           <div className="header">
-            {props.title} {new Date().toLocaleString()}
+            {props.title} 
           </div>
+          <span className="date"> {new Date().toLocaleString()}</span>
           <div className="meta">
             <p>{props.description}</p>
           </div>
@@ -20,6 +21,7 @@ const Item = (props) => {
           </div>
         </div>
       </div>
+      <span className="close">x</span>
     </li>
     
   );
